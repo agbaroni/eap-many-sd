@@ -6,5 +6,5 @@
 
 /subsystem=elytron/http-authentication-factory=basic-http-factory:add(http-server-mechanism-factory=global,mechanism-configurations=[{mechanism-name=BASIC}],security-domain=ApplicationDomain)
 
-/subsystem=undertow/application-security-domain=other:add(http-authentication-factory=basic-http-factory)
+/subsystem=undertow/application-security-domain=other3:add(http-authentication-factory=basic-http-factory)
 ```
